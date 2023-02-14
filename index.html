@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/foguete.png">
+    
+    <title>Gabriel Brandão</title>
+</head>
+<body>
+    
+    <header class="menu barra__menu">
+        
+        <h1 class="nome__menu"> <span>[</span>GABRIEL BRANDÃO<span>]</span></h1>
+        
+        <div class="links__menu">
+            
+            <a href="#quem__sou__section"> <h4 class="link quem__sou__menu">QUEM SOU</h4> </a>
+            <a href="#skills__section"> <h4 class="link skills__menu">SKILLS</h4>      </a>
+            <a href="#projetos__section"> <h4 class="link projetos__menu">PROJETOS</h4>  </a>
+            <a href="#contato__section"> <h4 class="link contato__menu">CONTATO</h4>    </a>
+            
+        </div>
+        
+    </header>
+    
+    <section class="apresentacao">
+        
+        <div class="apresentacao__e__botao">
+            
+            <h4 class="texto apresenta">Oi, eu sou</h4>
+            <h4 class="texto apresenta__nome"> <span class="nome__negrito">Gabriel Brandão.</span></h4>
+            <h4 class="texto apresenta__carreira">Exemplo de Carreira dev</h4>
+            
+            <a href="https://www.linkedin.com/in/gabrielgsbn99"><button class="botao__linkedin">
+                
+                LinkedIn
+                
+            </button></a>
+            
+        </div>
+        
+        <img class="img__foguete" src="img/foguete.png" alt="foguete">
+        
+    </section>
+
+    <section class="quem__sou" id="quem__sou__section">
+
+
+        <div class="moldura__foto">
+            <h2 class="img__foto">FOTO</h2>
+        </div> 
+
+        <div class="texto__quemsou__completo">
+            <h1 class="titulo__quem__sou">Quem sou <img src="img/icon_quem_sou.png" class="icons icon__quem__sou" alt=""></h1>
+
+            <h3 class="texto__quem__sou">Exemplo falando quem sou, quantos anos tenho, o que estudo e algumas coisa que julgar interessante.</h3>
+        </div>
+    </section>
+
+    <section class="skills__group" id="skills__section">
+
+        <h1 class="titulo__sessao__skills">Skills <img src="img/icon_skills.png" class="icon__skills" alt=""> </h1>
+
+        <div class="skills">
+
+            <div class="skill skill__html">
+                <img src="img/icon_html.png" class="skill__icon" alt="">
+            </div>
+
+            <div class="skill skill__css">
+                <img src="img/icon_css.png" class="skill__icon" alt="">
+            </div>
+
+            <div class="skill skill__js">
+                <img src="img/icon_js.png" class="skill__icon" alt="">
+            </div>
+
+            <div class="skill skill_python">
+                <img src="img/icon_python.png" class="skill__icon" alt="">
+            </div>
+
+            <div class="skill skill__java">
+                <img src="img/icon_java.png" class="skill__icon" alt="">
+            </div>
+
+            <div class="skill learning">
+                <img src="img/icon_learning.png" class="skill__icon" alt="">
+            </div>
+
+            <div class="skill learning">
+                <img src="img/icon_learning.png" class="skill__icon" alt="">
+            </div>
+
+            <div class="skill learning">
+                <img src="img/icon_learning.png" class="skill__icon" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="projetos" id="projetos__section">
+
+        <h1 class="titulo__sessao__projetos">Projetos <img src="img/icon_lamp.png" class="icons icon__projetos" alt=""></h1>
+
+        <div class="grupo__card__projetos">
+
+             <div class="card__projetos">
+
+                 <h3 class="foto__projeto">FOTO</h3>
+
+                 <h4 class="titulo__projeto">Título Projeto</h4>
+
+                 <h6 class="detalhes__projeto">dando alguns detalhes dos projetos, como linguagem usada e etc.</h6>
+
+             </div>
+         
+             <div class="card__projetos">
+
+                 <h3 class="foto__projeto">FOTO</h3>
+
+                 <h4 class="titulo__projeto">Título Projeto</h4>
+
+                 <h6 class="detalhes__projeto">dando alguns detalhes dos projetos, como linguagem usada e etc.</h6>
+
+             </div>
+         
+             <div class="card__projetos">
+
+                 <h3 class="foto__projeto">FOTO</h3>
+
+                 <h4 class="titulo__projeto">Título Projeto</h4>
+
+                 <h6 class="detalhes__projeto">dando alguns detalhes dos projetos, como linguagem usada e etc.</h6>
+
+             </div>
+
+        </div>
+
+    </section>
+
+    <form action="devgabrielbrandao@gmail.com" method="post" class="contato" id="contato__section">
+
+        <h1 class="titulo__sessao__contato">Contato</h1>
+
+        <div class="campos__contato">
+
+            <h1 class="tituloc nome__contato">Nome</h1>
+            <input type="text" class="campo campo__nome" required></input>
+
+            <h1 class="tituloc email__contato">E-Mail</h1>
+            <input type="email" class="campo campo__email" required></input>
+
+            <h1 class="tituloc msg__contato">Mensagem</h1>
+            <textarea class="campo campo__msg"></textarea>
+
+            <input type="submit" class="campo enviar" required></input>
+            <input type="hidden" name="_captcha" value="false">
+
+        </div>
+
+    </form>
+
+    <footer class="rodape">
+
+        <h1 class="nome__rodape">®2023 gabrielbrandao.com</h1>
+
+        <div class="links__redes">
+
+            <a href="https://www.linkedin.com/in/gabrielgsbn99"><img src="img/icon__linkedin.png" class="icons__rodape" alt=""></a>
+            <a href="https://github.com/gabrielbranda0"><img src="img/icons__github.png" class="icons__rodape" alt=""></a>
+            <a href=""><img src="img/icons__mail.png" class="icons__rodape" alt=""></a>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
